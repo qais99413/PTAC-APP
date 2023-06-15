@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/material_dynamic_secondary20"
+            android:layout_gravity="center_horizontal"
+            android:padding="35dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US.."
+                android:id="@+id/loginText"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginText2"
+                android:textSize="20sp"
+                android:hint="OPAL MARKETING AND INDUSTRY L.L.C
+P.O BOX 273 Ruwi, PC 112
+Sultanate of Oman"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="30dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginText3"
+                android:textSize="20sp"
+                android:hint="  (+968) 80001234 (Toll Free)"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="20dp"
+                android:drawableTint="#FFEB3B"
+                android:drawableLeft="@drawable/ic_baseline_phone_enabled_24"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginText5"
+                android:textSize="20sp"
+                android:hint="  FAX : (+968) 24478566"
+                android:textColorHint="@color/white"
+                android:drawableTint="#FFEB3B"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_contact_page_24"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginText6"
+                android:textSize="20sp"
+                android:hint="  contact@precisiontunegcc.com"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="10dp"
+                android:drawableTint="#FFEB3B"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

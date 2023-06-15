@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_contact_page_24"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="Our Services"/>
+
+        <item
+            android:id="@+id/nav_sch_mileage"
+            android:icon="@drawable/baseline_bookmark_added_24"
+            android:title="Schedule mileage"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_baseline_check_box_24"
+            android:title="History"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:checkable="true"
+                    android:title="About us"/>
+                <item
+                    android:id="@+id/nav_contact"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_baseline_phone_enabled_24"
+                    android:title="Contact us"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
